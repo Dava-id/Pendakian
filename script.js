@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }).addTo(map);
     
     // Add markers for important points (approximate coordinates)
-    L.marker([-7.7680, 112.5980]).addTo(map)
+    L.marker([-7.7805941, 112.6578405]).addTo(map)
         .bindPopup('Basecamp Tambaksari')
         .openPopup();
         
-    L.marker([-7.7580, 112.5950]).addTo(map)
+    L.marker([-7.7680, 112.5980]).addTo(map)
         .bindPopup('Pos 1 Onto Boego (1.300 mdpl)');
         
     L.marker([-7.7520, 112.5920]).addTo(map)
