@@ -494,3 +494,38 @@ footer {
         font-size: 1.1rem;
     }
 }
+
+/* Tambahkan di akhir file style.css */
+
+/* Style untuk section itinerary */
+#itinerary {
+    background-color: var(--light);
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+/* Style untuk link WhatsApp */
+.whatsapp-link {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-link:hover {
+    background-color: #25D366;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .whatsapp-link {
+        padding: 8px 12px;
+    }
+}
