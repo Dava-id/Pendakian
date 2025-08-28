@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendakian Gunung Arjuno via Tambaksari/Purwosari</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Arjuno Explorer</div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#preparation">Persiapan</a></li>
+                    <li><a href="#route-map">Peta Jalur</a></li>
+                    <li><a href="#route">Jalur Pendakian</a></li>
+                    <li><a href="#regulation">Peraturan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Pendakian Gunung Arjuno via Tambaksari/Purwosari</h1>
+            <p>Jelajahi keindahan dan spiritualitas Gunung Arjuno melalui jalur Purwosari yang penuh dengan situs sejarah dan pemandangan menakjubkan.</p>
+            <a href="#route" class="btn">Jelajahi Jalur Pendakian</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Jalur Menuju Basecamp</h2>
+                <p>Tambak Sari, Kec. Purwodadi, Kab. Pasuruan, Jawa Timur. 67163</p>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p>Pendakian Gunung Arjuno via Purwosari adalah salah satu jalur pendakian yang sangat menarik. Suasana mistis dengan berbagai situs peninggalan Kerajaan Majapahit dan tempat-tempat pemujaan ditemukan di sepanjang jalur pendakian. Inilah kenapa pendakian Gunung Arjuno via Purwosari disebut sebagai pendakian spiritual.</p>
+                    <p>Jalur pendakian Gunung Arjuno via Purwosari dimulai dari Desa Tambak Watu, Kecamatan Purwodadi, Kabupaten Pasuruan. Dari Malang bisa dimulai dari Terminal Arjosari menuju pasar Purwosari dengan angkutan umum dan dilanjutkan menuju pos perijinan Dusun Tambak Watu. Rute dari Surabaya bisa menaiki bus tujuan Malang dan turun di kantor penggadaian. Untuk menuju ke basecamp bisa menggunakan ojek yang ada sepanjang malam dengan tarif sekitar Rp. 30.000 (negosiasi) dengan perjalanan kurang lebih 30 menit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="preparation" style="background-color: var(--light);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Persiapan Pendakian</h2>
+                <p>Pastikan Anda membawa perlengkapan yang diperlukan untuk pendakian yang aman dan nyaman</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Perlengkapan Wajib</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Tenda kedap air</li>
+                            <li>Ransel/carrier dengan kondisi baik</li>
+                            <li>Matras, sleeping bag, sarung tangan, kaos kaki</li>
+                            <li>Bandana/kerpus/kupluk, sepatu, dan jas hujan</li>
+                            <li>Lampu senter, head lamp dan baterai cadangan</li>
+                            <li>Perbekalan logistik sesuai rencana perjalanan</li>
+                            <li>Obat-obatan pribadi (alat P3K)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Perlengkapan Disarankan</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Tracking Pole</li>
+                            <li>Alat navigasi/peta</li>
+                            <li>Emergency blanket (alumunium foil)</li>
+                            <li>Hand warmer</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Informasi Penting</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>HTM: 20.000 x 3 hari</p>
+                        <p>Asuransi: 10.000 per orang</p>
+                        <p>Tiket parkir roda 2: 5.000 (disarankan parkir di warga setempat)</p>
+                        <p>Wajib Surat Sehat dengan masa berlaku maksimal H-2 sebelum tanggal naik</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="route-map">
+        <div class="container">
+            <div class="section-title">
+                <h2>Peta Jalur Pendakian</h2>
+                <p>Visualisasi jalur pendakian Gunung Arjuno via Purwosari</p>
+            </div>
+            <img src="jalur.jpg" alt="Peta Jalur Pendakian Gunung Arjuno via Purwosari" class="route-map">
+            <div class="card">
+                <div class="card-body">
+                    <p>Peta di atas menunjukkan rute pendakian Gunung Arjuno via Purwosari. Jalur ini terkenal dengan nilai spiritualnya yang tinggi dengan berbagai situs pemujaan dan peninggalan sejarah di sepanjang perjalanan. Setiap pos memiliki karakteristik dan tantangan tersendiri, sehingga penting untuk memahami medan sebelum memulai pendakian.</p>
+                    <p>Jalur dimulai dari Basecamp di Desa Tambak Watu dan melalui 7 pos sebelum mencapai puncak. Total waktu pendakian normal adalah sekitar 10-12 jam, tergantung kondisi fisik dan cuaca.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="route">
+        <div class="container">
+            <div class="section-title">
+                <h2>Jalur dan Pos Pendakian</h2>
+                <p>Berikut adalah rincian pos-pos pendakian Gunung Arjuno via Purwosari</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Basecamp - Pos 1 Onto Boego</h3>
+                        <p><strong>Waktu: 1 Jam</strong></p>
+                        <p>Dari Tambak Watu melanjutkan perjalanan menuju ke Pos 1 dengan jalan yang masih landai dengan pepohonan kopi di sekitar. Banyak persimpangan di jalur menuju pos 1 dan ikutilah pipa air yang ada. Onto Boego dengan ketinggian 1.300 mdpl merupakan salah satu Situs Pemujaan Spiritual Gunung Arjuno yang pertama ditemui di jalur pendakian.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Pos 1 Onto Boego - Pos 2 Tampuono</h3>
+                        <p><strong>Waktu: 1 Jam</strong></p>
+                        <p>Jalur pendakian masih berupa tanah padat berkelok dan menanjak. Jalur sudah memasuki hutan dengan pepohonan besar yang rapat. Pos 2 berupa warung untuk melepas lelah dan beberapa gubuk yang biasa digunakan para peziarah. Di pos 2 ini terdapat Sendang Dewi Kunti untuk mengisi perbekalan air.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Pos 2 Tampuono - Pos 3 Eyang Sakri</h3>
+                        <p><strong>Waktu: 10 Menit</strong></p>
+                        <p>Jarak dari pos 2 ke pos 3 tidak jauh, jalan menanjak yang santai akan membawa sampai ke pos 3. Ada papan berisi petunjuk jalan di pertigaan ketika hampir sampai di pos 3. Ada one shelter di pos 3 yaitu petilasan Hyang Sakri.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Pos 3 Eyang Sakri - Pos 4 Eyang Semar</h3>
+                        <p><strong>Waktu: 1 Jam 30 Menit</strong></p>
+                        <p>Jalur pendakian mulai menanjak. Dari trek tanah akan berubah menjadi bebatuan dengan pemandangan alam pegunungan yang cukup indah. Di tengah hutan ada sebuah gubuk bernama "Rahayu". Di pos 4 terdapat Pondok Konservasi Treppa dan juga gubuk-gubuk lain yang bisa digunakan untuk beristirahat. Di bagian atas ada patung Eyang Semar dan sebuah tempat pemujaan.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Pos 4 Eyang Semar - Pos 5 Mangkutoromo</h3>
+                        <p><strong>Waktu: 40 Menit</strong></p>
+                        <p>Perjalanan tidak cukup jauh, jalanan berupa tanah menanjak dan berbelok-belok hingga menemukan bangunan candi yang besar dengan punden berundak di bawahnya. Itulah petilasan Mangkutoromo. Mangkutoromo adalah tempat camp favorit di sepanjang jalur pendakian. Selain ada sumber air, tempat yang sangat luas dan gubuk untuk bermalam.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Pos 5 Mangkutoromo - Pos 6 Candi Sepilar</h3>
+                        <p><strong>Waktu: 20 Menit</strong></p>
+                        <p>Jalur pendakian berupa punden berundak yang lumayan tinggi dan cukup membuat ngos-ngosan. Sampai diatas akan menjumpai Candi Sepilar yang bentuknya mirip dengan petilasan Mangkutoromo namun lebih kecil.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Pos 6 Candi Sepilar - Pos 7 Jawa Dipa</h3>
+                        <p><strong>Waktu: 1 Jam 45 Menit</strong></p>
+                        <p>Trek mulai menanjak di tengah hutan yang didominasi pohon pinus. Tidak ada tempat datar di sepanjang jalur pendakian hingga sampai di Pos 7. Jawa Dipa adalah lokasi camp favorit setelah Mangkutoromo. Meski tidak ada sumber air, lokasi ini cukup luas untuk membuat 4-5 tenda.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Pos 7 Jawa Dipa - Plawangan</h3>
+                        <p><strong>Waktu: 3 Jam 30 Menit</strong></p>
+                        <p>Trek yang sangat menanjak tanpa bonus di tengah hutan pinus akan sangat melelahkan. Trek tanah yang padat sesekali akan menjadi trek bebatuan dengan kemiringan tinggi. Ini adalah trek terpanjang yang dinamai bukit penyesalan.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Plawangan - Puncak Gunung Arjuno</h3>
+                        <p><strong>Waktu: 1 Jam</strong></p>
+                        <p>Plawangan adalah pertigaan dimana ada petunjuk arah untuk ke puncak Gunung Arjuno dan jalur Pendakian Gunung Arjuno via Lawang. From Plawangan ke Puncak Gunung Arjuno, jalur masih menanjak dengan pepohonan cantigi. Ketika sampai pada daerah bebatuan, puncak Ogal Agil sudah nampak dan hanya dibutuhkan waktu sekitar 10 menit mendaki bebatuan hingga sampai di Puncak Gunung Arjuno.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map-section" style="background-color: var(--light);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Peta Interaktif</h2>
+                <p>Jelajahi peta interaktif untuk melihat titik-titik penting dalam jalur pendakian Gunung Arjuno</p>
+            </div>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <section id="regulation">
+        <div class="container">
+            <div class="section-title">
+                <h2>Peraturan dan Larangan</h2>
+                <p>Patuhi peraturan berikut untuk kelestarian alam dan keamanan pendakian</p>
+            </div>
+            <button class="accordion">Larangan Umum</button>
+            <div class="panel">
+                <ul>
+                    <li>DILARANG MEMAKAI SANDAL GUNUNG</li>
+                    <li>Pendaki dilarang membawa atau menggunakan Drone selama berada di kawasan gunung Arjuno</li>
+                    <li>Dilarang membawa dan/atau menggunakan pengeras suara/sound speaker selama berada di kawasan gunung Arjuno</li>
+                    <li>Pendaki gunung Arjuno tidak diperkenankan melakukan pendakian Tiktok</li>
+                    <li>Pendaki tidak diperbolehkan lintas jalur</li>
+                </ul>
+            </div>
+
+            <button class="accordion">Larangan Terkait Lingkungan</button>
+            <div class="panel">
+                <ul>
+                    <li>Dilarang membawa alat-alat yang terindikasi digunakan untuk melakukan tindakan yang mengakibatkan kerusakan flora/fauna</li>
+                    <li>Dilarang melakukan coretan-coretan/vandalisme pada benda-benda, pohon atau bangunan didalam kawasan</li>
+                    <li>Dilarang membuat bangunan permanen, semi permanen dengan tujuan tertentu tanpa ada surat izin</li>
+                    <li>Dilarang merubah bentuk asli, merusak, memugar, mencuri, memindah letak lokasi, mengganti yang asli dengan replika situs Purbakala</li>
+                    <li>Dilarang membuang sampah sembarangan dan wajib membawa sampah anda turun kembali</li>
+                    <li>Dilarang membuat api unggun dari kayu atau sampah untuk tujuan apapun</li>
+                </ul>
+            </div>
+
+            <button class="accordion">Larangan Lainnya</button>
+            <div class="panel">
+                <ul>
+                    <li>Dilarang memaksakan diri untuk melanjutkan perjalanan jika kondisi dan situasi tidak memungkinkan (kesehatan, cuaca, keamanan)</li>
+                    <li>Dilarang melanggar norma agama, norma asusila, norma budaya dan nilai-nilai adat istiadat masyarakat setempat</li>
+                    <li>Dilarang membawa dan minum-minuman keras (beralkohol) membawa dan menggunakan obat-obat terlarang (narkoba)</li>
+                    <li>Dilarang membawa senjata tajam dan senjata api yang tidak selayaknya untuk kegiatan pendakian</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="background-color: var(--light);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kontak Admin Perizinan</h2>
+                <p>Hubungi admin untuk informasi perizinan pendakian</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <h3>Emir Hasan</h3>
+                    <p>082133820436</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Agus Setiawan</h3>
+                    <p>082283492803</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pendakian Gunung Arjuno via Tambaksari/Purwosari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
