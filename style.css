@@ -8,15 +8,6 @@
     --text-light: #757575;
 }
 
-.circle-logo {
-    border-radius: 50%;
-    width: 64px;
-    height: 64px;
-    object-fit: cover;
-}
-.rounded-favicon {
-    border-radius: 50% !important;
-}
 
 * {
     margin: 0;
@@ -539,4 +530,5 @@ footer {
         padding: 8px 12px;
     }
 }
+
 
